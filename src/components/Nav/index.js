@@ -1,38 +1,24 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
+import ContactForm from '../Contact';
 
-function Nav(props) {
+function Nav() {
+
     return(
-        <header>
-        <h2>
-          <a href="/"> Dan Evola 
-          </a>
-        </h2>
-        <Navbar>
-          <ul className="flex-row">
-            <li className="mx-2">
-              <a href="#about">
-                About me
-              </a>
+        <div>
+            <li>
+                <Link to="/">About</Link>
             </li>
-            <li className="mx-2">
-              <a href="#contact">
-                Contact
-              </a>
+            {/* <li>
+            <Link to="/portfolio">Portfolio</Link>
             </li>
-            <li className="mx-2">
-              <a href="#portfolio">
-                Portfolio
-              </a>
+            <li>
+            <Link to="/resume">Resume</Link>
+            </li> */}
+            <li>
+            <Link to="/contact">Contact</Link>
             </li>
-            <li className="mx-2">
-              <a href="#resume">
-                Resume
-              </a>
-            </li>
-          </ul>
-        </Navbar>
-      </header>
+        </div>
     );
 }
 

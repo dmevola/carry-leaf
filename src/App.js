@@ -1,18 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from './components/About';
-import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import './App.css';
+import Nav from "./components/Nav"
+
 
 function App() {
   return (
-    <div>
-      <Nav></Nav>
-      <main>
-        <ContactForm></ContactForm>
-    <About></About>
-    </main>
-    </div>
+    <Router>
+      <Nav />
+      <Routes>
+        <Route path='/' element={<About/>} />
+        <Route path='/contact' element={<ContactForm/>} />
+      </Routes>
+    </Router>
   );
 }
 
