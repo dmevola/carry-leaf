@@ -1,24 +1,31 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import ContactForm from '../Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import Navbar from 'react-bootstrap/Navbar';
+// import { Container } from 'react-bootstrap';
+
 
 function Nav() {
 
     return(
-        <div>
+        <header className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
+            <ul className='h4 text-info'>
+                Dan Evola
+            </ul>
             <li>
-                <Link to="/">About</Link>
+            <Link to="/">About</Link>
             </li>
-            {/* <li>
+            <li>
             <Link to="/portfolio">Portfolio</Link>
             </li>
             <li>
             <Link to="/resume">Resume</Link>
-            </li> */}
+            </li>
             <li>
             <Link to="/contact">Contact</Link>
             </li>
-        </div>
+        </header>
+
     );
 }
 
