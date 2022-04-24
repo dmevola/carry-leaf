@@ -15,7 +15,7 @@ function handleSubmit(e) {
 
     return(
         <section>
-            <h1>
+            <h1 className='top-text'>
                 Contact Me
             </h1>
             <form id="contact-form" onSubmit={handleSubmit}>
