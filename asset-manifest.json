@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/carry-leaf/static/css/main.34591406.css",
-    "main.js": "/carry-leaf/static/js/main.591e6ce5.js",
-    "static/js/787.56b4e29b.chunk.js": "/carry-leaf/static/js/787.56b4e29b.chunk.js",
-    "static/media/resume.pdf": "/carry-leaf/static/media/resume.f4527eb31955b335921b.pdf",
-    "pdf.worker.js": "/carry-leaf/e7e915313973ba1d49f9bb2a1998626e.js",
-    "static/media/4-the-record.png": "/carry-leaf/static/media/4-the-record.402bcdd289b81c5782ab.png",
-    "static/media/run-buddy-bright.jpg": "/carry-leaf/static/media/run-buddy-bright.a7e7bcdd35fb12204e4f.jpg",
-    "static/media/ronnies-meats.jpg": "/carry-leaf/static/media/ronnies-meats.e4c87755f576d5e6b3b7.jpg",
-    "static/media/chivalry-barber.jpg": "/carry-leaf/static/media/chivalry-barber.b20430edca22aa221638.jpg",
-    "static/media/fruit-facts.png": "/carry-leaf/static/media/fruit-facts.398072e8466b78f1189c.png",
-    "static/media/headshot.jpeg": "/carry-leaf/static/media/headshot.aa318562faeabbc5b311.jpeg",
-    "index.html": "/carry-leaf/index.html",
-    "main.34591406.css.map": "/carry-leaf/static/css/main.34591406.css.map",
-    "main.591e6ce5.js.map": "/carry-leaf/static/js/main.591e6ce5.js.map",
-    "787.56b4e29b.chunk.js.map": "/carry-leaf/static/js/787.56b4e29b.chunk.js.map"
+    "main.css": "/portfolio/carry-leaf/static/css/main.34591406.css",
+    "main.js": "/portfolio/carry-leaf/static/js/main.413a1b2c.js",
+    "static/js/787.56b4e29b.chunk.js": "/portfolio/carry-leaf/static/js/787.56b4e29b.chunk.js",
+    "static/media/resume.pdf": "/portfolio/carry-leaf/static/media/resume.f4527eb31955b335921b.pdf",
+    "pdf.worker.js": "/portfolio/carry-leaf/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/4-the-record.png": "/portfolio/carry-leaf/static/media/4-the-record.402bcdd289b81c5782ab.png",
+    "static/media/run-buddy-bright.jpg": "/portfolio/carry-leaf/static/media/run-buddy-bright.a7e7bcdd35fb12204e4f.jpg",
+    "static/media/ronnies-meats.jpg": "/portfolio/carry-leaf/static/media/ronnies-meats.e4c87755f576d5e6b3b7.jpg",
+    "static/media/chivalry-barber.jpg": "/portfolio/carry-leaf/static/media/chivalry-barber.b20430edca22aa221638.jpg",
+    "static/media/fruit-facts.png": "/portfolio/carry-leaf/static/media/fruit-facts.398072e8466b78f1189c.png",
+    "static/media/headshot.jpeg": "/portfolio/carry-leaf/static/media/headshot.aa318562faeabbc5b311.jpeg",
+    "index.html": "/portfolio/carry-leaf/index.html",
+    "main.34591406.css.map": "/portfolio/carry-leaf/static/css/main.34591406.css.map",
+    "main.413a1b2c.js.map": "/portfolio/carry-leaf/static/js/main.413a1b2c.js.map",
+    "787.56b4e29b.chunk.js.map": "/portfolio/carry-leaf/static/js/787.56b4e29b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34591406.css",
-    "static/js/main.591e6ce5.js"
+    "static/js/main.413a1b2c.js"
   ]
 }
