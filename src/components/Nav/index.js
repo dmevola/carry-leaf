@@ -8,7 +8,7 @@ function Navigation() {
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
             <Container>
-                <Navbar.Brand href="/">Dan Evola</Navbar.Brand>
+                <Navbar.Brand href="/carry-leaf/">Dan Evola</Navbar.Brand>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id ="responsive-navbar-nav">
             <Nav className="me-auto">
