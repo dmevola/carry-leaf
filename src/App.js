@@ -5,7 +5,7 @@ import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import Nav from "./components/Nav"
+import Navigation from "./components/Nav"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -14,9 +14,9 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Nav />
+      <Navigation />
       <Routes>
-        <Route path='/' element={<About/>} />
+        <Route exact path='/' element={<About/>} />
         <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/resume' element={<Resume/>} />
         <Route path='/contact' element={<ContactForm/>} />

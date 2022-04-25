@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button } from 'react-bootstrap';
 
 function ContactForm() {
 const [formState, setFormState] = useState({ name: '', email: '', message: ''});
@@ -15,9 +16,12 @@ function handleSubmit(e) {
 
     return(
         <section>
-            <h1 className='top-text'>
+            <div className='container'>
+                <div className='row'>
+            <h1 className='top-text text-center w-responsive mx-auto mb-5'>
                 Contact Me
             </h1>
+            <p className='text-center w-responsive mx-auto mb-5'>Want to connect? Fill out the form below and I will get back in touch ASAP.</p>
             <form id="contact-form" onSubmit={handleSubmit}>
             <div>
                  <label htmlFor="name">Name:</label>
@@ -31,8 +35,10 @@ function handleSubmit(e) {
                 <label htmlFor="message">Message:</label>
                 <textarea name="message" defaultValue= {message} rows="5" onChange={handleChange} />
             </div>
-            <button type="submit">Submit</button>
+            <Button type="submit">Submit</Button>
             </form>
+            </div>
+            </div>
         </section>
     )
 }
