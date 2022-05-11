@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/carry-leaf/static/css/main.dea3b56a.css",
+    "main.css": "/carry-leaf/static/css/main.897b1612.css",
     "main.js": "/carry-leaf/static/js/main.59761aa1.js",
     "static/js/787.56b4e29b.chunk.js": "/carry-leaf/static/js/787.56b4e29b.chunk.js",
     "static/media/resume.pdf": "/carry-leaf/static/media/resume.f4527eb31955b335921b.pdf",
@@ -12,12 +12,12 @@
     "static/media/fruit-facts.png": "/carry-leaf/static/media/fruit-facts.398072e8466b78f1189c.png",
     "static/media/headshot.jpeg": "/carry-leaf/static/media/headshot.aa318562faeabbc5b311.jpeg",
     "index.html": "/carry-leaf/index.html",
-    "main.dea3b56a.css.map": "/carry-leaf/static/css/main.dea3b56a.css.map",
+    "main.897b1612.css.map": "/carry-leaf/static/css/main.897b1612.css.map",
     "main.59761aa1.js.map": "/carry-leaf/static/js/main.59761aa1.js.map",
     "787.56b4e29b.chunk.js.map": "/carry-leaf/static/js/787.56b4e29b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea3b56a.css",
+    "static/css/main.897b1612.css",
     "static/js/main.59761aa1.js"
   ]
 }
