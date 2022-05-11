@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from './components/About';
 import ContactForm from './components/Contact';
@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route path='/' element={<About/>} />
+        <Route exact path='/' element={<About/>} />
         <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/resume' element={<Resume/>} />
         <Route path='/contact' element={<ContactForm/>} />

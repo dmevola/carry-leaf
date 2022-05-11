@@ -2,9 +2,10 @@ import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../App.css'
+import {Link} from 'react-router-dom';
 
 
-function Navigation() {
+function Navigation(props) {
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
             <Container>
@@ -12,10 +13,10 @@ function Navigation() {
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id ="responsive-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link href="/">About</Nav.Link>
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Link to="/">About</Link>
+            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/resume">Resume</Link>
+            <Link to="/contact">Contact</Link>
             </Nav>
             </Navbar.Collapse>
             </Container>
