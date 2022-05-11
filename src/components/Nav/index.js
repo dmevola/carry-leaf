@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../App.css'
 import {Link} from 'react-router-dom';
+import './nav.css'
 
 
 function Navigation(props) {
