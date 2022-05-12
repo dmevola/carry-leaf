@@ -4,6 +4,7 @@ import Record from '../../img/4-the-record.png'
 import RonniesMeats from '../../img/ronnies-meats.jpg'
 import Chivalry from '../../img/chivalry-barber.jpg'
 import RunBuddy from '../../img/run-buddy-bright.jpg'
+import Ecomics from '../../img/ecomics.png'
 
 
 function Portfolio () {
@@ -13,6 +14,14 @@ function Portfolio () {
                 Portfolio of Work
             </h1>
         <div className='row justify-content-center portfolio'>
+            <div className='col-12 col-md-4 col-lg-3 card m-1'>
+                <img className='card-img-top' src={Ecomics} alt='E-Comics'></img>
+                <div className='card-body'>
+                    <h5 className='card-title'>E-Comics</h5>
+                    <p className='card-text'>E-Comics is a C2C ecommerce store for comic books, manga, and more!</p>
+                    <a href='https://e-comic-403a6.firebaseapp.com' className='btn btn-primary'>Check it out</a>
+                </div>
+            </div>
             <div className='col-12 col-md-4 col-lg-3 card m-1'>
                 <img className='card-img-top' src={FruitFacts} alt='Fruit Facts'></img>
                 <div className='card-body'>

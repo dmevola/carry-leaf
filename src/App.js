@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import About from './components/About';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
@@ -16,7 +16,8 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route exact path='/' element={<About/>} />
+        <Route exact path='/' element= {<Navigate to ="/about"/>} />
+        <Route path='/about' element={<About/>} />
         <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/resume' element={<Resume/>} />
         <Route path='/contact' element={<ContactForm/>} />

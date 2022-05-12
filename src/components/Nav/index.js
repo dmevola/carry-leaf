@@ -14,7 +14,7 @@ function Navigation(props) {
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id ="responsive-navbar-nav">
             <Nav className="me-auto">
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
             <Link to="/portfolio">Portfolio</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/contact">Contact</Link>
