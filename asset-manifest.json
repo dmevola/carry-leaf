@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/carry-leaf/static/css/main.897b1612.css",
-    "main.js": "/carry-leaf/static/js/main.e4d3f6a4.js",
+    "main.js": "/carry-leaf/static/js/main.b2c5b4a9.js",
     "static/js/787.56b4e29b.chunk.js": "/carry-leaf/static/js/787.56b4e29b.chunk.js",
     "static/media/resume.pdf": "/carry-leaf/static/media/resume.f4527eb31955b335921b.pdf",
+    "static/media/ecomics.png": "/carry-leaf/static/media/ecomics.f393a30e730f392edc39.png",
     "pdf.worker.js": "/carry-leaf/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/4-the-record.png": "/carry-leaf/static/media/4-the-record.402bcdd289b81c5782ab.png",
     "static/media/run-buddy-bright.jpg": "/carry-leaf/static/media/run-buddy-bright.a7e7bcdd35fb12204e4f.jpg",
@@ -13,11 +14,11 @@
     "static/media/headshot.jpeg": "/carry-leaf/static/media/headshot.aa318562faeabbc5b311.jpeg",
     "index.html": "/carry-leaf/index.html",
     "main.897b1612.css.map": "/carry-leaf/static/css/main.897b1612.css.map",
-    "main.e4d3f6a4.js.map": "/carry-leaf/static/js/main.e4d3f6a4.js.map",
+    "main.b2c5b4a9.js.map": "/carry-leaf/static/js/main.b2c5b4a9.js.map",
     "787.56b4e29b.chunk.js.map": "/carry-leaf/static/js/787.56b4e29b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.897b1612.css",
-    "static/js/main.e4d3f6a4.js"
+    "static/js/main.b2c5b4a9.js"
   ]
 }
